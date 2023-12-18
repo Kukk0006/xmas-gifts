@@ -65,6 +65,7 @@ color: var(--yellow);
 .carousel, .carousel-item {
  height:75vh;
  background-color: #b4634abd;
+ border-radius: 25px;
 }
 .carousel-text{
   padding-top:15em;
@@ -73,6 +74,16 @@ color: var(--yellow);
 }
 .carousel-control-next, .carousel-control-prev{
   width:3%;
+}
+.concert-picture{
+  margin: 0 auto;
+  position: relative;
+  transform: translate(0, -15%);
+}
+.big-chop{
+  margin: 0 auto;
+  position: relative;
+  transform: translate(0, -18%);
 }
 #messages, #bags{
   padding-top:  5em;
@@ -114,4 +125,5 @@ a{
     background-color: rgba(255, 255, 255, 0.753);
 }
   
+
 }
