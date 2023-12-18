@@ -1,0 +1,117 @@
+:root{
+/*near black #240610, light purple #413d60, yellow #ffee96, orange #b4624a */
+--near-black: #240610;
+--yellow:#ffee96;
+--orange: #b4624a;
+--purple:#413d60;
+}
+
+body{
+  font-family: 'Playpen Sans','Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: var(--near-black);
+  font-size: 18px;
+  overflow-x: hidden;
+}
+h1, h2, h3, h4, h5{
+  font-family: 'Caveat', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: 700;
+}
+.btn{
+  background-color: var(--yellow);
+  border: var(--yellow);
+  color: var(--purple);
+  font-weight: bold;
+}
+.btn:hover{
+background-color: var(--purple);
+border: var(--purple);
+color: var(--yellow);
+}
+.hero-bg {
+  background-color: var(--purple);
+  min-width: 100vw;
+  height: 100vh;
+  margin: 0 auto;
+  position: fixed;
+  display: block;
+  z-index: -9;
+}
+.hero-frame{
+  height: 100vh;
+}
+.hero-heading{
+ font-size: 72px;
+}
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: var(--near-black);
+  padding:5em;
+  background-color: #ffffff9c;
+  border-radius: 25px;
+}
+.cover-up, footer{
+  background-color: #413d60fa;
+  width: 100%;
+}
+.mask-bar{
+  padding:5em;
+  background-color: #413d60fa;
+  mask-image: linear-gradient(transparent,black);
+}
+.carousel, .carousel-item {
+ height:75vh;
+ background-color: #b4634abd;
+}
+.carousel-text{
+  padding-top:15em;
+  padding-left: 3em;
+  padding-right: 3em; 
+}
+.carousel-control-next, .carousel-control-prev{
+  width:3%;
+}
+#messages, #bags{
+  padding-top:  5em;
+}
+#bags h2{
+  color:var(--yellow);
+  padding:1em 0.5em;
+}
+.card{
+  border: none;
+  border-radius: 10px;
+  background-color: beige;
+}
+.card-body{
+  background-color: beige;
+  border-radius: 10px;
+  margin: 0 1em;
+}
+.card h3{
+  text-align: center;
+}
+a{
+  text-decoration: none;
+  color: var(--yellow);
+}
+.card-footer{
+  background-color: var(--near-black);
+}
+
+/*-------------------------media qureys----------------*/
+@media screen and ( max-width:990px) {
+.carousel-item{
+  position: relative;
+}
+  .carousel-text{
+    padding-top:0;
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.753);
+}
+  
+}
