@@ -64,8 +64,13 @@ color: var(--yellow);
 }
 .carousel, .carousel-item {
  height:75vh;
- background-color: #b4634abd;
- border-radius: 25px;
+ background-color: #b4634a93;
+}
+.amy-dance{
+  display: block;
+  margin: 0 auto;
+  padding-top: 10px;
+  max-height: 74vh;
 }
 .carousel-text{
   padding-top:15em;
@@ -80,10 +85,15 @@ color: var(--yellow);
   position: relative;
   transform: translate(0, -15%);
 }
-.big-chop{
+.big-chop, .fugly, .mike-carousel, .cassie-carousel{
   margin: 0 auto;
   position: relative;
   transform: translate(0, -18%);
+}
+
+.cat-carousel{
+  position: relative;
+  transform: translate(0, -30%);
 }
 #messages, #bags{
   padding-top:  5em;
