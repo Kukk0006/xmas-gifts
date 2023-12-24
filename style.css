@@ -82,7 +82,7 @@ color: var(--yellow);
   padding-right: 3em; 
 }
 .carousel-text-audio{
-  padding-top:10em;
+  padding-top:8em;
   padding-left: 3em;
   padding-right: 3em; 
 }
@@ -137,6 +137,9 @@ a{
 
 /*-------------------------media qureys----------------*/
 @media screen and ( max-width:990px) {
+  html{
+    overflow-x: hidden;
+  }
 .carousel-item{
   position: relative;
 }
@@ -146,8 +149,16 @@ a{
     bottom: 0;
     background-color: rgba(255, 255, 255, 0.753);
 }
+.carousel-control-next, .carousel-control-prev{
+  width:10%;
+}
 .amy-dance{
   width:100vw;
 }
-
+.carousel-text-audio{
+  padding-top:5em;
+}
+.concert-picture{
+  z-index:-10;
+}
 }
