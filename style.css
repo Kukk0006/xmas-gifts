@@ -143,11 +143,16 @@ a{
 .carousel-item{
   position: relative;
 }
-  .carousel-text{
+  .carousel-text, .carousel-caption{
     padding-top:0;
+    display: block;
     position: absolute;
     bottom: 0;
+    left:0;
+    right:0;
     background-color: rgba(255, 255, 255, 0.753);
+    z-index: 3;
+    color: var(--near-black);
 }
 .carousel-control-next, .carousel-control-prev{
   width:10%;
@@ -160,5 +165,8 @@ a{
 }
 .concert-picture{
   z-index:-10;
+}
+.big-chop{
+  width:100%;
 }
 }
