@@ -27,6 +27,10 @@ background-color: var(--purple);
 border: var(--purple);
 color: var(--yellow);
 }
+.fa-angle-down{
+  color: var(--yellow);
+  font-size: 36px;
+}
 .hero-bg {
   background-color: var(--purple);
   min-width: 100vw;
@@ -77,13 +81,22 @@ color: var(--yellow);
   padding-left: 3em;
   padding-right: 3em; 
 }
+.carousel-text-audio{
+  padding-top:10em;
+  padding-left: 3em;
+  padding-right: 3em; 
+}
+audio{
+  width: 90%;
+}
+.scarf{
+}
 .carousel-control-next, .carousel-control-prev{
   width:3%;
 }
 .concert-picture{
   margin: 0 auto;
-  position: relative;
-  transform: translate(0, -15%);
+  transform: translateY(-15%);
 }
 .big-chop, .fugly, .mike-carousel, .cassie-carousel{
   margin: 0 auto;
@@ -134,6 +147,8 @@ a{
     bottom: 0;
     background-color: rgba(255, 255, 255, 0.753);
 }
-  
+.amy-dance{
+  width:100vw;
+}
 
 }
