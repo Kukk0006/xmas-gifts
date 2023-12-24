@@ -165,6 +165,11 @@ a{
 .carousel-control-next, .carousel-control-prev{
   width:10%;
 }
+.carousel-control-next-icon, .carousel-control-prev-icon{
+  background-color: #240610;
+  opacity: 1;
+  border-radius: 25px;
+}
 .amy-dance{
   width:100vw;
 }
